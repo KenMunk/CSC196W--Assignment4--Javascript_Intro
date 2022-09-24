@@ -19,17 +19,17 @@
 		
 		<aside>
 			<aside>
-				<button onclick="textmodder.bigger()"
-					<label for="bigger_button"><p>Bigger!</p></label>
+				<button onclick="bigger()" id="sizebutton">
+					<label for="bigger_button"><p id="button_label">Bigger!</p></label>
 				</button>
 			</aside>
 			<aside>
 				<label for="fancyRadial"><p>FancySchmancy</p></label><br>
-				<input type="radio" id="fancyRadial" name="fancyRadial">
+				<input onchange="fancySchmancy()" type="radio" id="fancyRadial" name="fancyRadial">
 			</aside>
 			<aside>
 				<label for="boringRadial"><p>BoringBetty</p></label><br>
-				<input type="radio" id="boringRadial" name="boringRadial">
+				<input onchange="boringBetty()" type="radio" id="boringRadial" name="boringRadial">
 			</aside>
 		</aside>
 		
