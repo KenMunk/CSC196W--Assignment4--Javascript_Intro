@@ -5,6 +5,7 @@
 
 		<!-- A link to the javascript file -->
 		<script src="fancifymytext.js"></script>
+		<link rel="stylesheet" href="fancyStyle.css">
 		
 	</head>
 
@@ -17,19 +18,24 @@
 			<textarea id="fancytext" name="fancytext" rows="4" cols="50">Type here...</textarea>
 		</aside>
 		
-		<aside>
-			<aside>
+		<aside class="ControlInterface">
+			<aside class="controlarea">
 				<button onclick="bigger()" id="sizebutton">
 					<label for="bigger_button"><p id="button_label">Bigger!</p></label>
 				</button>
 			</aside>
-			<aside>
+			<aside class="controlarea">
 				<label for="fancyRadial"><p>FancySchmancy</p></label><br>
 				<input onchange="fancySchmancy()" type="radio" id="fancyRadial" name="fancyRadial">
 			</aside>
-			<aside>
+			<aside class="controlarea">
 				<label for="boringRadial"><p>BoringBetty</p></label><br>
 				<input onchange="boringBetty()" type="radio" id="boringRadial" name="boringRadial">
+			</aside>
+			<aside class="controlarea">
+				<button onclick="moo()" id="buttonGoMoo">
+					<label for="buttonGoMoo"><p id="moo_button_label">Bigger!</p></label>
+				</button>
 			</aside>
 		</aside>
 		

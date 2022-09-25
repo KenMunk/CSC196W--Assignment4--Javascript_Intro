@@ -1,0 +1,24 @@
+.ControlInterface{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+
+.controlarea{
+	border: 0.2rem outset gray;
+	border-radius: 10px;
+	background-color: #eeeeee
+}
+
+body{
+	display: flex;
+	justify-content: flex-start;
+	width: 350px;
+	flex-direction: column;
+}
+
+button{
+	border: 0.2rem outset gray;
+	border-radius: 20px;
+	background-color: #88aaff
+}
